@@ -38,16 +38,16 @@ public class MaxCounters {
 
     }
 
-    public void increase(int X, int[] A) {
+    private void increase(int X, int[] A) {
         // Incrementing the counter X (X-1 in the array)
         A[X-1]++;
     }
 
-    public void setMaxCounter(int currentMax) {
+    private void setMaxCounter(int currentMax) {
         maxCounter = currentMax;
     }
 
-    public int getMaxCounter() {
+    private int getMaxCounter() {
         return maxCounter;
     }
 }
